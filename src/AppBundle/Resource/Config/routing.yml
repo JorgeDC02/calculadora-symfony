@@ -1,0 +1,6 @@
+#app_default_calculadora:
+  #path: /default/calculadora/{num1}/{num2}
+  #defaults: {_controller: AppBundle:Default:calculadora, num1:0, num2:6}
+  #requirements:
+  #num1: \d+
+  #num2: \d+

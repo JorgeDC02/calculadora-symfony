@@ -1,0 +1,15 @@
+calculator:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+    #prefix: "/calculadora" #todaslas rutas tendran este prefijo
+    #defaults: {_controller: AppBundle:Calculator:doSum}
+
+#app2:
+    #resource: "@AppBundle/Resource/Config/routing.yml"
+    #prefix: /rutas2
+
+rational:
+    resource: "@RationalBundle/Controller/"
+    type: annotation
+    prefix: /rational
+
